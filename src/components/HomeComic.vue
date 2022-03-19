@@ -32,7 +32,7 @@ export default {
       date: '',
       transcript: ''
     });
-    const urlBase = process.env.VUE_APP_URL_CURRENT;
+    const urlBase = process.env.VUE_APP_HOST_LOCAL;
 
     const getRandomId = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
