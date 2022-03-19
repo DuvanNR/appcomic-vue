@@ -32,20 +32,22 @@ export default {
       date: '',
       transcript: ''
     });
+    const urlBase = process.env.VUE_APP_URL_CURRENT;
 
     const getRandomId = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
     const getAnswer = async () => {
       const comicId = getRandomId(1, 100);
-      const resp = await fetch(`http://localhost:8080/api/${comicId}/info.0.json`).then( response => response.json() );
-      comic.title = resp.title
-      comic.img = resp.img
-      comic.date = `${resp.year}-${resp.month}-${resp.day}`
-      comic.transcript = resp.transcript
+      const resp = await fetch(`${urlBase}/api/${comicId}/info.0.json`).then( response => response.json() );
+      comic.title = resp.title;
+      comic.img = resp.img;
+      comic.date = `${resp.year}-${resp.month}-${resp.day}`;
+      comic.transcript = resp.transcript;
     }
 
     onMounted(() => {
-      getAnswer()
+      getAnswer();
+      console.log(urlBase);
     })
 
     return {
