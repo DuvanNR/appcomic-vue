@@ -25,7 +25,8 @@ npm run serve
 npm run build
 ```
 
-##NOTA - !IMPORTANTE
+## NOTA - !IMPORTANTE
+
 _Alfinalizar la instalación de las dependecias y septup, recuerde la siguiente configuración:_
 
 ```
