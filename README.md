@@ -15,6 +15,8 @@ npm install
 
 ### Compiles and hot-reloads for development
 
+_Por favor ejecute este comando para correr el app modo development. Adicionalment no olvide configurar el archivo_ `.env.development` _en caso de ser necesario_
+
 ```
 npm run serve
 ```
