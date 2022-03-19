@@ -15,7 +15,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 
-_Por favor ejecute este comando para correr el app modo development. Adicionalment no olvide configurar el archivo_ `.env.development` _en caso de ser necesario_
+_Por favor ejecute este comando para correr el app modo development. Adicionalmente no olvide configurar el archivo_ `.env.development` _en caso de ser necesario._
 
 ```
 npm run serve
@@ -35,7 +35,7 @@ _Alfinalizar la instalación de las dependecias y septup, recuerde la siguiente 
 VUE_APP_HOST_LOCAL=http://localhost:8080
 ```
 
-_En el archivo_ `.env.development` _debe configurar el host local donde correrá el app, esto es debido que a nivel de desarrollo se realiza un proxy a la ruta_ `https://xkcd.com` _en el archivo_ `vue.config.js` _para evitar el cors que bloquea la peticion no autoizada desde el navegador_
+_En el archivo_ `.env.development` _debe configurar el host local donde correrá el app, esto es debido que a nivel de desarrollo se realiza un proxy a la ruta_ `https://xkcd.com` _en el archivo_ `vue.config.js` _para evitar el cors que bloquea la peticion no autoizada desde el navegador._
 
 ### Customize configuration
 
