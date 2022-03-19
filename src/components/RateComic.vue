@@ -27,9 +27,6 @@
     text-align: center;
   }
 
-  label {
-    font-size: 20px;
-  }
 }
 
 .clasificacion {
@@ -58,6 +55,12 @@ label {
 
 input[type="radio"]:checked ~ label {
   color: #fab005;
+}
+
+@media (max-width: 40rem) {
+  label{ 
+    font-size: 2em; 
+  }
 }
 
 </style>

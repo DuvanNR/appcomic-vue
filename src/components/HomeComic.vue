@@ -150,11 +150,12 @@ body {
 @media (max-width: 40rem) {
   #container {
     width: 18rem;
-    height: 27.25rem;
+    // height: 27.25rem;
   }
   
   .comic-card {
     flex-wrap: wrap;
+    height: auto !important;
   }
 }
 
